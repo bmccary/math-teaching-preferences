@@ -1,0 +1,27 @@
+{
+    "semester": "Fall 2018",
+    "courses": {
+        "MATH 1306": {"days": "MWF"},
+        "MATH 1314": {"days": "MWF"},
+        "MATH 1316": {"days": "MWF"},
+        "MATH 1325": {"days": "TR"},
+        "MATH 1326": {"days": "TR"},
+        "MATH 2312": {"days": "MWF"},
+        "MATH 2333": {"days": "MWF"},
+        "MATH 2413": {"days": "MWF"},
+        "MATH 2414": {"days": "MWF"},
+        "MATH 2415": {"days": "TR"},
+        "MATH 2417": {"days": "TR"},
+        "MATH 2418": {"days": "TR"},
+        "MATH 2419": {"days": "TR"},
+        "MATH 2420": {"days": "TR"},
+        "STAT 1342": {"days": "TR"},
+        "STAT 3341": {"days": "TR and/or MW"},
+        "STAT 3360": {"days": "TR and/or MW"}
+    },
+    "max_preparations": 2,
+    "max_sections": 4,
+    "max_course_preferences": 4,
+    "email_head_assistant": "mkahsan@utdallas.edu",
+    "email_head": "MathDeptHead@utdallas.edu"
+}
