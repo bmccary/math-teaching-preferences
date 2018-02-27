@@ -7,7 +7,7 @@ pdf_to_txt = Builder(suffix='.txt', src_suffix='.pdf', action=Action('pdftk $SOU
 env['BUILDERS']['PdfToTxt'] = pdf_to_txt
 
 def txt_g():
-    for pdf in glob('*.pdf'):
+    for pdf in sorted(glob('*.pdf')):
         yield env.PdfToTxt(pdf)
 
 txt = list(txt_g())
@@ -101,13 +101,13 @@ r'''% Automatically generated from {config_json}, so edit it instead.
 
     XR = \
 r'''%
-    \mbox{{\ChoiceMenu[bordercolor=black, name={course}, mappingname={course}, height=8mm, print, combo, value=\DefaultCourse{{}}, default=\DefaultCourse{{}}]{{}}{{{comma_join_courses}}}}}
+    \mbox{{\ChoiceMenu[bordercolor=black, name={course}, mappingname={course}, combo, height=8mm, value=\DefaultCourse{{}}, default=\DefaultCourse{{}}]{{}}{{{comma_join_courses}}}}}
     &
-    \mbox{{\ChoiceMenu[bordercolor=black, name={course}sections, mappingname={course}sections, height=8mm, print, combo, value=0, default=0]{{}}{{{comma_join_sections}}}}}
+    \mbox{{\ChoiceMenu[bordercolor=black, name={course}sections, mappingname={course}sections, combo, height=8mm, value=0, default=0]{{}}{{{comma_join_sections}}}}}
     &
-    \mbox{{\CheckBox[bordercolor=black, name={course}coordinate, mappingname={course}coordinate, width=8mm, height=8mm]{{}}}}
+    \mbox{{\ChoiceMenu[bordercolor=black, name={course}coordinate, mappingname={course}coordinate, combo, height=8mm, default=No]{{}}{{No, Yes}}}}
     &
-    \mbox{{\CheckBox[bordercolor=black, name={course}backtoback, mappingname={course}backtoback, width=8mm, height=8mm]{{}}}}
+    \mbox{{\ChoiceMenu[bordercolor=black, name={course}backtoback, mappingname={course}backtoback, combo, height=8mm, default=No]{{}}{{No, Yes}}}}
     \\
 '''
 
