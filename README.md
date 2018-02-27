@@ -4,7 +4,8 @@
     1. Open a terminal, go to a suitable directory.
     1. `git clone https://github.com/bmccary/math-teaching-preferences.git`
     1. That will make a directory called `math-teaching-preferences`.
-    1. The code will be in `/whatever/path/you/chose/math-teaching-preferences`. We will refer that directory as `$MTP`.
+    1. The code will be in `/whatever/path/you/chose/math-teaching-preferences`. 
+    1. We will refer that directory as `$MTP`.
 1. If you've already cloned the repo:
     1. Open a terminal and change directory to `$MTP`.
     1. `git pull`
