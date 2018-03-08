@@ -39,3 +39,4 @@ The preferences form is [this PDF](https://bmccary.github.io/utd-math-teaching-p
 | `$MTP/tex/teaching-preferences.tex` | Constant | The main TeX file. |
 | `$MTP/tex/teaching-preferences-table.tex` | Output | A TeX file generated from the contents of `config.json`. |
 
+
