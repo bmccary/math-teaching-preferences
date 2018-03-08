@@ -1,10 +1,12 @@
 # Instructions
 
+The preferences form is [this PDF](https://github.com/bmccary/utd-math-teaching-preferences/raw/master/tex/teaching-preferences.pdf).
+
 1. The first time you're doing this:
     1. Open a terminal, go to a suitable directory.
-    1. `git clone https://github.com/bmccary/math-teaching-preferences.git`
-    1. That will make a directory called `math-teaching-preferences`.
-    1. The code will be in `/whatever/path/you/chose/math-teaching-preferences`. 
+    1. `git clone https://github.com/bmccary/utd-math-teaching-preferences.git`
+    1. That will make a directory called `utd-math-teaching-preferences`.
+    1. The code will be in `/whatever/path/you/chose/utd-math-teaching-preferences`. 
     1. We will refer that directory as `$MTP`.
     1. `scons` 
 1. Send an email everyone:
