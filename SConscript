@@ -192,5 +192,7 @@ courses_table_tex_action = Action(_courses_table_tex_action, '$TARGET: $SOURCE')
 
 env.Command(target=os.path.join('tex', 'courses-table.tex'), source='config.json', action=courses_table_tex_action)
 
-env.PDF(source=os.path.join('tex', 'teaching-preferences.tex'))
+pdf = env.PDF(source=os.path.join('tex', 'teaching-preferences.tex'))
+
+env.Install(target='docs', source=pdf)
 

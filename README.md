@@ -1,6 +1,6 @@
 # Instructions
 
-The preferences form is [this PDF](https://github.com/bmccary/utd-math-teaching-preferences/raw/master/tex/teaching-preferences.pdf).
+The preferences form is [this PDF](https://bmccary.github.io/utd-math-teaching-preferences/teaching-preferences.pdf).
 
 1. The first time you're doing this:
     1. Open a terminal, go to a suitable directory.
